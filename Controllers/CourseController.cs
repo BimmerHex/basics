@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using basics.Models;
 
@@ -10,7 +9,13 @@ public class CourseController : Controller
     // course/index
     public IActionResult Index()
     {
-        return View();
+        var getCourse = new Course();
+
+        getCourse.Id = 1;
+        getCourse.Title = "ASPNET Core Kursu";
+        getCourse.Description = "ASPNET Core ile alakalı güzel bir kurs";
+
+        return View(getCourse);
     }
 
     // course/list
