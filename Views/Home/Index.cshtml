@@ -1,5 +1,22 @@
-<h1>Ana Sayfa Index</h1>
+@model List<Course>
 
 @section Header {
     @await Html.PartialAsync("_Header")
 }
+
+<div class="row">
+    @foreach(var getCourse in Model) {
+        @if(getCourse.isActive && getCourse.isHome) {
+            <div class="col-3">
+                <div class="card">
+                    <img src="~/img/@getCourse.Image" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">@getCourse.Title</h5>
+                        <p class="card-text">@getCourse.Description</p>
+                        <a asp-controller="Course" asp-action="Details" asp-route-id="@getCourse.Id" class="btn btn-primary">Detay</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
