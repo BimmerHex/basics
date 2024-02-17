@@ -28,3 +28,4 @@ C:\Users\BimmerHex\Desktop\aspnetcore-dersleri\basics\obj\Debug\net8.0\refint\ba
 C:\Users\BimmerHex\Desktop\aspnetcore-dersleri\basics\obj\Debug\net8.0\basics.pdb
 C:\Users\BimmerHex\Desktop\aspnetcore-dersleri\basics\obj\Debug\net8.0\basics.genruntimeconfig.cache
 C:\Users\BimmerHex\Desktop\aspnetcore-dersleri\basics\obj\Debug\net8.0\ref\basics.dll
+C:\Users\BimmerHex\Desktop\aspnetcore-dersleri\basics\obj\Debug\net8.0\basics.sourcelink.json
