@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\BimmerHex\\Desktop\\aspnetcore-dersleri\\basics\\wwwroot\\img\\aspnetcore.jpg",
+      "PackagePath": "staticwebassets\\img\\aspnetcore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BimmerHex\\Desktop\\aspnetcore-dersleri\\basics\\wwwroot\\img\\django.jpg",
+      "PackagePath": "staticwebassets\\img\\django.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BimmerHex\\Desktop\\aspnetcore-dersleri\\basics\\wwwroot\\img\\javascript.jpg",
+      "PackagePath": "staticwebassets\\img\\javascript.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BimmerHex\\Desktop\\aspnetcore-dersleri\\basics\\wwwroot\\img\\php.jpg",
+      "PackagePath": "staticwebassets\\img\\php.jpg"
+    },
+    {
       "Id": "C:\\Users\\BimmerHex\\Desktop\\aspnetcore-dersleri\\basics\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
