@@ -14,6 +14,7 @@ public class CourseController : Controller
         getCourse.Id = 1;
         getCourse.Title = "ASPNET Core Kursu";
         getCourse.Description = "ASPNET Core ile alakalı güzel bir kurs";
+        getCourse.Image = "aspnetcore.jpg";
 
         return View(getCourse);
     }
