@@ -1,3 +1,5 @@
+@model List<Course>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,5 +9,12 @@
 </head>
 <body>
     <h1>Course List Page</h1>
+
+    @foreach(var getCourse in Model) {
+        <div id="course_@getCourse.Id">
+            <h2>@getCourse.Title</h2>
+            <p>@getCourse.Description</p>
+        </div>
+    }
 </body>
 </html>

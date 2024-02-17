@@ -21,6 +21,29 @@ public class CourseController : Controller
     // course/list
     public IActionResult List()
     {
-        return View("CourseList");
+        var getCourses = new List<Course>()
+        {
+            new Course() {
+                Id = 1,
+                Title = "ASPNET Core Kursu",
+                Description = "ASPNET Core ile alakalı güzel bir kurs"
+            },
+            new Course() {
+                Id = 2,
+                Title = "PHP Kursu",
+                Description = "PHP ile alakalı güzel bir kurs"
+            },
+            new Course() {
+                Id = 3,
+                Title = "Django Kursu",
+                Description = "Django ile alakalı güzel bir kurs"
+            },
+            new Course() {
+                Id = 4,
+                Title = "Javascript Kursu",
+                Description = "Javascript ile alakalı güzel bir kurs"
+            }
+        };
+        return View("CourseList", getCourses);
     }
 }
