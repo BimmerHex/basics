@@ -19,6 +19,19 @@ public class CourseController : Controller
         return View(getCourse);
     }
 
+    // course/details
+    public IActionResult Details()
+    {
+        var getCourse = new Course();
+
+        getCourse.Id = 1;
+        getCourse.Title = "ASPNET Core Kursu";
+        getCourse.Description = "ASPNET Core ile alakalı güzel bir kurs";
+        getCourse.Image = "aspnetcore.jpg";
+
+        return View(getCourse);
+    }
+
     // course/list
     public IActionResult List()
     {
